@@ -18,7 +18,7 @@ test.describe("Reddit.com", () => {
     await page.emulateMedia({ colorScheme: "light" });
     await expect(themeElement).toHaveCSS(
       "background-color",
-      "rgb(255, 255, 254)"
+      "rgb(255, 255, 255)"
     );
 
     await page.screenshot({
